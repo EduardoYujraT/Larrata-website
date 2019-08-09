@@ -3,11 +3,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../Layout/NavigationBar.css';
 
+
 export default function NavigationBar() {
     return (
         <div className="navigationBar">
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">Larrata Files</Navbar.Brand>
+            <Navbar.Brand className="title" href="#home">
+                <img>
+                </img>
+                Larrata Files</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>

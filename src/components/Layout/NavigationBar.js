@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../Layout/NavigationBar.css';
+import logo from './logo.svg'
 
 
 export default function NavigationBar() {
@@ -9,8 +10,7 @@ export default function NavigationBar() {
         <div className="navigationBar">
         <Navbar bg="light" expand="lg">
             <Navbar.Brand className="title" href="#home">
-                <img>
-                </img>
+                {/*<img alt="logo" src={logo} width="40" height="40" className="d-d-inline-block align-top"></img>*/}
                 Larrata Files</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

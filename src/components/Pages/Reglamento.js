@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
+
 
 class Reglamento extends React.Component{
 
@@ -27,10 +27,12 @@ class Reglamento extends React.Component{
     render(){
         const{items} = this.state;
         return(
-            <Container>
+            <div className="container">
                 <br></br>
                 <div className="body" dangerouslySetInnerHTML={{__html: items}}></div>    
-            </Container>
+            </div>
+                
+            
             
         )
     }

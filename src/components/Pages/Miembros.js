@@ -1,9 +1,10 @@
 import React from 'react'
 import './miembros.css';
-import kev from '/home/eduardo/Documentos/git/Larrata-website/src/assets/kev.jpg';
-import fran from '/home/eduardo/Documentos/git/Larrata-website/src/assets/fran.jpg';
-import gonza from '/home/eduardo/Documentos/git/Larrata-website/src/assets/gonza.jpg';
-import edu from '/home/eduardo/Documentos/git/Larrata-website/src/assets/edu.jpg';
+import kev from '../../assets/kev.jpg';
+import fran from '../../assets/fran.jpg';
+import gonza from '../../assets/gonza.jpg';
+import edu from '../../assets/edu.jpg';
+
 
 export default function Miembros() {
     return (

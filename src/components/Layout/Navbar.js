@@ -19,7 +19,7 @@ export default function Navbar() {
                     <Link className="nav-link text-uppercase ml-5" to="/">Reglamento</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link text-uppercase ml-5" to="/miembros">Miembros</Link>
+                    <Link className="nav-link text-uppercase ml-5" to="/miembros">Agentes</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link text-uppercase ml-5" to="/issues">Issues</Link>

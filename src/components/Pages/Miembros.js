@@ -1,6 +1,8 @@
 import React from 'react'
 import './miembros.css';
 
+import gif from '../../assets/load.gif';
+
 import noti from '../../assets/noti.jpg';
 import santy from '../../assets/santy.jpg';
 import alba from '../../assets/alba.jpg';
@@ -28,7 +30,7 @@ export default function Miembros() {
         <div className="row justify-content-center align-self-center">
             <div className="col-12 col-md-3 col-sm-6 area" align="center"> 
                 <div className="card text-center h-100 ">
-                    <img src={noti} className="card-img-top" alt="..."></img>
+                    <img src={noti} className="card-img-top" alt="..." loader={gif}></img>
                     <div className="card-block">
                         <h5 className="card-title">Notario, Matias Nicolás</h5>
                         <p className="card-text">Administrador</p>

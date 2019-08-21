@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div className="footer-bottom">
             <p className="text-xs-center">
-              &copy;{new Date().getFullYear()} City Guide App - All Rights
+              &copy;{new Date().getFullYear()} Larrata - All Rights
               Reserved
             </p>
           </div>

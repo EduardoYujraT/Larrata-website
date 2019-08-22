@@ -29,10 +29,13 @@ class Issues extends React.Component {
         console.log(items);
         return (
             <div className="container">
-                <ul className="list-group">
+                <div class="row justify-content-center">
+                    <iframe src="https://open.spotify.com/embed/playlist/7CiLbPwnGSBAwrl4x002ue" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                {/* <ul className="list-group">
                     <li className="list-group-item">Cras justo odio</li>
                     
-                </ul>
+                </ul> */}
             </div>
         )
     }

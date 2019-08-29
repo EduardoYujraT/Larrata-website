@@ -1,3 +1,11 @@
-.navbar-brand{
-    color: #ffffff !important;
+/*.nav-item:hover{
+    color: #ff5100 !important;
+}*/
+.nav-link:hover{
+    color: #ff5100 !important;
 }
+
+.nav-link:active{
+    color: #b43900 !important;
+}
+
